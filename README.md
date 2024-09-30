@@ -1,58 +1,70 @@
-# Project Overview
-=====================
+# Getting Started with Create React App
 
-This project is a web-based platform that utilizes images and leverages the power of Filament, PHP, and Laravel to provide a robust and scalable solution.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technologies Used
---------------------
+## Available Scripts
 
-* **Filament**: A PHP package for building admin panels and dashboards.
-* **PHP**: A server-side scripting language for web development.
-* **Laravel**: A PHP framework for building robust and scalable web applications.
-* **Images**: The platform utilizes images to provide a visually appealing and engaging user experience.
+In the project directory, you can run:
 
-## Project Structure
----------------------
+### `npm start`
 
-### Directories
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* **app**: Core application code, including models, controllers, and views.
-* **config**: Configuration files for the application, including database settings and Filament configuration.
-* **public**: Publicly accessible files, including images and CSS/JS assets.
-* **resources**: Resources, such as views and language files.
-* **routes**: Route definitions for the application.
-* **storage**: Storage files, including uploaded images.
-* **tests**: Unit tests and feature tests for the application.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Getting Started
--------------------
+### `npm test`
 
-### Steps
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. `git clone` the repository to your local machine.
-2. Run `composer install` to install the required dependencies.
-3. Run `php artisan migrate` to migrate the database.
-4. Run `php artisan serve` to start the development server.
-5. Access the platform by navigating to `http://localhost:8000` in your web browser.
+### `npm run build`
 
-## Contributing
----------------
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Guidelines
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Fork the repository and create a new branch for your feature or fix.
-2. Make changes to the code and commit them with a descriptive message.
-3. Push your changes to your forked repository.
-4. Create a pull request to merge your changes into the main repository.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
----------
+### `npm run eject`
 
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Acknowledgments
-----------------
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-This project would not have been possible without the contributions of the following individuals and organizations:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-* m4arthu
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
