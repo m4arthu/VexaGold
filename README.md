@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Trading Platform
+=====================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+-----------
 
-## Available Scripts
+This is a trading platform built using ReactJS and styled with Tailwind CSS. The platform allows users to buy and sell various assets, view market data, and manage their accounts.
 
-In the project directory, you can run:
+## Getting Started
+---------------
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Node.js (version 14 or higher)
+* Yarn (version 1.22 or higher)
+* ReactJS (version 17 or higher)
+* Tailwind CSS (version 3 or higher)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/your-username/trading-platform.git`
+2. Install dependencies: `yarn install`
+3. Start the development server: `yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Building and Deployment
 
-### `npm run build`
+1. Build the application: `yarn build`
+2. Deploy to your preferred platform (e.g. Vercel, Netlify, etc.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* User authentication and authorization
+* Asset trading (buy and sell)
+* Market data visualization
+* Account management (deposit, withdraw, etc.)
+* Responsive design using Tailwind CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
+--------------------
 
-### `npm run eject`
+* ReactJS (version 17)
+* Tailwind CSS (version 3)
+* Node.js (version 14)
+* Yarn (version 1.22)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Directory Structure
+---------------------
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* `public/`: Static assets (images, fonts, etc.)
+* `src/`: Application source code
+	+ `components/`: Reusable React components
+	+ `containers/`: Higher-order components (e.g. navigation, etc.)
+	+ `pages/`: Application pages (e.g. login, dashboard, etc.)
+	+ `styles/`: Tailwind CSS configuration and utility classes
+	+ `utils/`: Utility functions (e.g. API calls, etc.)
+	+ `index.js`: Application entry point
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
+--------------
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
-## Learn More
+## License
+---------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License. See `LICENSE` for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
+----------------
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Luis Arthur Cruz Sousa for creating this trading platform
