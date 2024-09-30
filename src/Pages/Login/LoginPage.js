@@ -3,7 +3,7 @@ const LoginPage = () => {
         <div className="bg-[black]">
             <div className={`bg-[url(../public/assets/images/background.svg)] h-screen w-full flex justify-center items-center`}>
                 <div name="form" className="rounded-[25px] border-[#2E2F32] px-6 py-8 border-[1px] bg-[#151618] w-[525px]
-                 h-[480px] flex flex-col items-center w-full">
+                 h-[480px] flex flex-col items-center">
                     <div className="flex justify-center"><img src="./assets/images/logo.svg" /></div>
                     <form className="h-full w-full flex flex-col gap-y-8 mt-7">
                         <div className="flex flex-col gap-y-2">
