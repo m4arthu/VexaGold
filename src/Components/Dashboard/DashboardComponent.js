@@ -1,3 +1,6 @@
+import LastOperationWitget from "./Witgets/LastOperationsWitget"
+import WalletDetailsWitget from "./Witgets/WalletDetailsWitget"
+
 const DashboardComponent = () => {
     return (
         <div className="ml-2 w-full pr-5 pl-2">
@@ -14,6 +17,11 @@ const DashboardComponent = () => {
 
                 </div>
             </header>
+            <div className="w-full justify-between flex mt-4">
+                <LastOperationWitget />
+                <WalletDetailsWitget />
+
+            </div>
         </div>
     )
 }
