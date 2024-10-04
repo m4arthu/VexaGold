@@ -14,9 +14,10 @@ const SidebarComponent = () => {
 
   return (
     <aside className="relative bg-[#151618] w-[227px] h-[95vh] mt-2 rounded-[12px] py-4 pl-4 ml-4 flex flex-col gap-y-5 text-white">
-      {routes.map((route, index) => (
+      <img className="cursor-pointer mr-3" src="./assets/images/logo.svg" />
+     {routes.map((route, index) => (
         <div onClick={() => navigate(route.path)} key={index} className="flex h-ful  cursor-pointer">
-          <img className={`mr-2 ${location.pathname === route.path ? 'fill-[#2FFE82]' : ''}`} src={`/assets/images/icons/${route.icon}`} />
+          <img className={`mr-1 ${location.pathname === route.path ? 'fill-[#2FFE82]' : ''}`} src={`/assets/images/icons/${route.icon}`} />
           <p
             className={`ml-2 text-[12px] font-bold ${location.pathname === route.path ? 'text-[#2FFE82]' : ''}`}
           >
