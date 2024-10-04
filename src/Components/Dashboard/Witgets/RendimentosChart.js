@@ -40,7 +40,7 @@ const RendimentosChart = () => {
     return (
         <div className=" bg-[#151618] mt-4 mr-4 w-[60%] rounded-[10px]">
             <h1 className="text-white font-bold mt-4 ml-4">RENDIMENTOS</h1>
-            <div className="flex  p-2 items-end">
+            <div className=" w-full flex  p-2 items-end">
                 <div className="text-white flex flex-col mr-3 mb-10">
                     {
                         [
@@ -52,14 +52,13 @@ const RendimentosChart = () => {
                     }
                 </div>
 
-                <div>
+                <div className="w-full">
                     <div className="w-full ml-3">
                         {data.options && (
                             <Chart
                                 options={data.options}
                                 series={data.series}
                                 type="area"
-                                width={"100%"}
                             />
                         )}
                     </div>
