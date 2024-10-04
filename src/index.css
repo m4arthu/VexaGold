@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-select {
+    -webkit-appearance: none; /* Remove default browser styling */
+    background-image: url("/public/assets/images/icons/arrowDown.svg"); /* Add custom arrow */
+    background-size: 12px; /* Adjust the size of the arrow */
+    background-position: 90% 55%; /* Position the arrow */
+    background-repeat: no-repeat; /* Ensure the arrow doesn't repeat */
+  }
