@@ -1,4 +1,6 @@
+import AcertosWitget from "./Witgets/AcertosWitget"
 import LastOperationWitget from "./Witgets/LastOperationsWitget"
+import RendimentosChart from "./Witgets/RendimentosChart"
 import WalletDetailsWitget from "./Witgets/WalletDetailsWitget"
 
 const DashboardComponent = () => {
@@ -17,10 +19,14 @@ const DashboardComponent = () => {
 
                 </div>
             </header>
-            <div className="w-full justify-between flex mt-4">
+            <div className="w-full justify-between flex">
                 <LastOperationWitget />
                 <WalletDetailsWitget />
-
+            </div>
+            <div className="w-full justify-between flex">
+                <RendimentosChart/>
+                <AcertosWitget/>
+                <AcertosWitget/>
             </div>
         </div>
     )

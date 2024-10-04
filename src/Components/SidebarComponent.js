@@ -1,6 +1,6 @@
 const Sidebar = () => {
     return (
-        <aside className=" relative bg-[#151618]  w-[227px] h-[690px] mt-2 rounded-[12px] py-4 pl-4 ml-4 flex flex-col gap-y-5 text-white">
+        <aside className=" relative bg-[#151618]  w-[227px] h-[90vh] mt-2 rounded-[12px] py-4 pl-4 ml-4 flex flex-col gap-y-5 text-white">
             <div className="flex items-center"><img width="140" src="./assets/images/logo.svg" />
                 <svg className="ml-2 cursor-pointer" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1H7H13" stroke="#848894" stroke-width="1.5" stroke-linecap="round" />
