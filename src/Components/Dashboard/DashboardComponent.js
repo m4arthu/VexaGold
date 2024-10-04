@@ -7,7 +7,7 @@ import WalletDetailsWitget from "./Witgets/WalletDetailsWitget"
 const DashboardComponent = () => {
     return (
         <div className="ml-2 w-full pr-5 pl-2">
-            <header className="w-full flex justify-between">
+            <header className="w-full mb-2 flex justify-between">
                 <h1 className="text-white font-bold">DASHBOARD</h1>
                 <div className="flex gap-4 items-center">
                     <img className="cursor-pointer" src="./assets/images/swichdark.svg" />
