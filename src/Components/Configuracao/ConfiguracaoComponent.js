@@ -44,7 +44,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">NOTICIA</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Não óperar em noticia</p>
                     <div className="w-full cursor-pointer py-3 flex justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -58,7 +58,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">STOP WIN</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Meta Max.Diária</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -72,7 +72,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">STOP LOSS</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Perda Max.Diária</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -86,7 +86,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">VALOR DA ENTRADA</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Meta Max.Diária</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -100,7 +100,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">PAGAMENTO</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Minimo Taxa de pagamento a ser operada</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -114,7 +114,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">QUANTIDADE MARTIN GALE</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Só pode ser operado  se cilclo de recuperação for desativado</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -128,7 +128,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">FATOR GALE</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Multiplicação sobre as entradas</p>  <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>0</p>
@@ -141,7 +141,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">FATOR CICLO</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Fator de multiplicação em  cicllo</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
@@ -155,7 +155,7 @@ const ConfigComponent = () => {
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">QUANTIDADE DE CICLO</p>
                         </div>
-                        <img src="./assets/images/icons/trash.svg" />
+                        <img src="./assets/images/icons/trash.svg" className="cursor-pointer " />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Quatidade de cliclo a ser operada</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
