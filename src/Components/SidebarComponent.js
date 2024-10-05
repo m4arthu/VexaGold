@@ -14,13 +14,16 @@ const SidebarComponent = () => {
 
   return (
     <aside className="relative bg-[#151618] w-[227px] h-[95vh] mt-2 rounded-[12px] py-4 pl-4 ml-4 flex flex-col gap-3 text-white">
-     <div className="flex w-full">
-     <img className="w-[80%] cursor-pointer mb-3" src="./assets/images/logo.svg" />
-     <img className="cursor-pointer ml-2" src="./assets/images/icons/sideBarBars.svg" />
-     </div>
-     {routes.map((route, index) => (
+      <div className="flex w-full">
+        <img className="w-[80%] cursor-pointer mb-3" src="./assets/images/logo.svg" />
+        <img className="cursor-pointer ml-2" src="./assets/images/icons/sideBarBars.svg" />
+      </div>
+      {routes.map((route, index) => (
         <div onClick={() => navigate(route.path)} key={index} className="flex h-ful  cursor-pointer">
-          <img className={`mr-1 ${location.pathname === route.path ? 'fill-[#2FFE82]' : ''}`} src={`/assets/images/icons/${route.icon}`} />
+          <img
+            className={`mr-1 ${location.pathname === route.path ? 'active-icon' : ''}`}
+            src={`/assets/images/icons/${route.icon}`}
+          />
           <p
             className={`ml-2 text-[13px] font-bold ${location.pathname === route.path ? 'text-[#2FFE82]' : ''}`}
           >

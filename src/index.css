@@ -9,3 +9,7 @@
     background-position: 90% 55%; /* Position the arrow */
     background-repeat: no-repeat; /* Ensure the arrow doesn't repeat */
   }
+
+  .active-icon {
+    filter: invert(60%) sepia(500%) saturate(444%) hue-rotate(50deg) brightness(133%) contrast(105%);
+  }
