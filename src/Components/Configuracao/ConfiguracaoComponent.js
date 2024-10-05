@@ -36,7 +36,7 @@ const ConfigComponent = () => {
 
             <div className="w-full grid grid-cols-3 gap-4">
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center   justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
                             <p className="text-[14px] text-white ml-3 font-bold">NOTICIA</p>
@@ -44,7 +44,7 @@ const ConfigComponent = () => {
                         <img src="./assets/images/icons/trash.svg" />
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Não óperar em noticia</p>
-                    <div className="w-full py-3 flex justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
+                    <div className="w-full cursor-pointer py-3 flex justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>Desligado</p>
                         <img src="./assets/images/icons/arrowUpDown.svg" />
                     </div>
