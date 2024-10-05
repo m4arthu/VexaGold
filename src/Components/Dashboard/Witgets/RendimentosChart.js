@@ -31,9 +31,10 @@ const RendimentosChart = () => {
                     },
                     markers: {
                         size: 0
-                    }
+                    },
+                    color: '#2FFE82' 
                 }
-            ]
+            ],
         });
     }, []);
 
