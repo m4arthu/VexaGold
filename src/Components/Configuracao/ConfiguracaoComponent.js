@@ -1,7 +1,9 @@
+import HeaderComponent from "../HeaderComponent"
+
 const ConfigComponent  = () => {
     return (
-        <div>
-          
+        <div className="w-full p-2">
+                 <HeaderComponent title={'CONFIGURAÇOES'}/>
         </div>
     )
 }

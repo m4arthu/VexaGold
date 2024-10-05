@@ -1,7 +1,7 @@
-const HeaderComponent = () => {
+const HeaderComponent = ({title}) => {
     return (
         <header className="w-full mb-2 flex justify-between">
-            <h1 className="text-white font-bold">DASHBOARD</h1>
+            <h1 className="text-white font-bold">{title}</h1>
             <div className="flex gap-4 items-center">
                 <img className="cursor-pointer" src="./assets/images/swichdark.svg" />
                 <svg className="cursor-pointer" width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">

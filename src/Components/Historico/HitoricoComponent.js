@@ -1,7 +1,9 @@
-const HitoricoComponent  = () => {
+import HeaderComponent from "../HeaderComponent"
+
+const HitoricoComponent = () => {
     return (
-        <div>
-          
+        <div className="w-full p-2">
+            <HeaderComponent title={'HISTÓRICO'} />
         </div>
     )
 }

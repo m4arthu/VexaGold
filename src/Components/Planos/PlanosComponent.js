@@ -1,7 +1,9 @@
-const PlanosComponent  = () => {
+import HeaderComponent from "../HeaderComponent"
+
+const PlanosComponent = () => {
     return (
-        <div>
-          
+        <div className="w-full p-2">
+            <HeaderComponent title={'PLANOS'} />
         </div>
     )
 }
