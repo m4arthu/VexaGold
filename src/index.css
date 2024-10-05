@@ -11,5 +11,5 @@
   }
 
   .active-icon {
-    filter: invert(60%) sepia(500%) saturate(444%) hue-rotate(50deg) brightness(133%) contrast(105%);
+    filter: invert(60%) sepia(100%) saturate(444%) hue-rotate(60deg) brightness(110%) contrast(105%);
   }
