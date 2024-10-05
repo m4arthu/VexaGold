@@ -1,14 +1,13 @@
-import DashboardComponent from "../../Components/Dashboard/DashboardComponent"
+import ConfigComponent from "../../Components/Configuracao/ConfiguracaoComponent"
 import SidebarComponent from "../../Components/SidebarComponent"
 
-const Dashboard = () => {
+const ConfigPage = () => {
     return (
         <div className="bg-black h-[100vh] flex py-4">
             <SidebarComponent/>
-            <DashboardComponent/>
+            <ConfigComponent/>
         </div>
     )
 }
 
-
-export default Dashboard
+export default ConfigPage
