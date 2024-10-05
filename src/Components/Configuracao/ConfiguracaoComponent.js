@@ -31,6 +31,9 @@ const ConfigComponent = () => {
                 <div className="flex">
                     <img src="./assets/images/icons/SettingsIcon.svg" />
                     <p className="text-[14px] text-white ml-3 font-bold">OPERAÇÃO AO VIVO</p>
+                    <div className="flex ml-8 w-[50px] justify-end w-[80px] rounded-[15px] bg-[#2FFE823D] ">
+                        <div className="w-[25px] cursor-pointer rounded-[100%] bg-[#2FFE82]"></div>
+                    </div>
                 </div>
             </div>
 
@@ -60,7 +63,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Meta Max.Diária</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>+R$200,00</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -74,7 +77,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Perda Max.Diária</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>-R$200,00</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -88,7 +91,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Meta Max.Diária</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>R$50,00</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -102,7 +105,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Minimo Taxa de pagamento a ser operada</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>84%</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -116,7 +119,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Só pode ser operado  se cilclo de recuperação for desativado</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>0</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -129,7 +132,7 @@ const ConfigComponent = () => {
                     </div>
                     <p className="text-[11px] text-white mt-1 mb-2">Multiplicação sobre as entradas</p>  <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>0</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -143,7 +146,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Fator de multiplicação em  cicllo</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>0</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
                 <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
@@ -157,7 +160,7 @@ const ConfigComponent = () => {
                     <p className="text-[11px] text-white mt-1 mb-2">Quatidade de cliclo a ser operada</p>
                     <div className="w-full flex items-center justify-between font-bold text-[14px] p-2 mt-2 mb-3 rounded bg-[#2E2F323D] text-white">
                         <p>0</p>
-                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
+                        <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
             </div>
