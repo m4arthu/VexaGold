@@ -27,7 +27,7 @@ const ConfigComponent = () => {
                 </div>
             </div>
 
-            <div className="mt-2 bg-[#151618] mt-3 mb-3 w-[300px] p-2 rounded-[10px]">
+            <div className="mt-1 bg-[#151618] mt-2 mb-2 w-[300px] p-2 rounded-[10px]">
                 <div className="flex">
                     <img src="./assets/images/icons/SettingsIcon.svg" />
                     <p className="text-[14px] text-white ml-3 font-bold">OPERAÇÃO AO VIVO</p>
@@ -37,8 +37,8 @@ const ConfigComponent = () => {
                 </div>
             </div>
 
-            <div className="w-full grid grid-cols-3 gap-4">
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+            <div className="w-full grid grid-cols-3 gap-1">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center   justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -52,7 +52,7 @@ const ConfigComponent = () => {
                         <img src="./assets/images/icons/arrowUpDown.svg" />
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -66,7 +66,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -80,7 +80,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -94,7 +94,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -108,7 +108,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -122,7 +122,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -135,7 +135,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />
@@ -149,7 +149,7 @@ const ConfigComponent = () => {
                         <button className="mr-2 px-4 border border-[#2FFE82] rounded-[8px] p-1 bg-[#1B985E]">Salvar</button>
                     </div>
                 </div>
-                <div className="mt-2 bg-[#151618] w-full p-2 rounded-[10px]">
+                <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center justify-between">
                         <div className="flex">
                             <img src="./assets/images/icons/SettingsIcon.svg" />

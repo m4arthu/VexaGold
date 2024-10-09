@@ -18,7 +18,7 @@ const PlanosComponent = () => {
                     </div>
                 </div>
 
-                <div className="w-full grid grid-cols-3 mt-4 items-end gap-3">
+                <div className="w-full grid grid-cols-3 mt-2 p-2 items-end gap-3">
                     <div className="bg-[#151618]  px-3 py-4 rounded-[15px] w-full h-[67vh]">
                         <h1 className="text-[25px] font-bold text-[white]">Basic</h1>
                         <p className="text-white text-[12px] mt-4 ">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLore</p>
@@ -28,7 +28,7 @@ const PlanosComponent = () => {
                             <p className="font-bold">COMEÇAR</p>
                             <img src="./assets/images/icons/ArrowRight.svg" />
                         </div>
-                        <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-4">
                             <div className="text-white mt-1 flex">
                                 <img src="./assets/images/icons/circleCheckedGreen.svg" />
                                 <p className="ml-2 font-bold text-[13px]">Lorem ipsumLorem ipsumLorem ipsum</p>
@@ -64,7 +64,7 @@ const PlanosComponent = () => {
                             <p className="font-bold">COMEÇAR</p>
                             <img src="./assets/images/icons/ArrowRight.svg" />
                         </div>
-                        <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-4">
                             <div className="text-white mt-1 flex">
                                 <img src="./assets/images/icons/circleCheckedGreen.svg" />
                                 <p className="ml-2 font-bold text-[13px]">Lorem ipsumLorem ipsumLorem ipsum</p>
@@ -104,7 +104,7 @@ const PlanosComponent = () => {
                             <p className="font-bold">COMEÇAR</p>
                             <img src="./assets/images/icons/ArrowRight.svg" />
                         </div>
-                        <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-4">
                             <div className="text-white mt-1 flex">
                                 <img src="./assets/images/icons/circleCheckedGreen.svg" />
                                 <p className="ml-2 font-bold text-[13px]">Lorem ipsumLorem ipsumLorem ipsum</p>
