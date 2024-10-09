@@ -2,7 +2,7 @@ const HistoryTable = () => {
     return (
         <div class="container mx-auto px-4 sm:px-8" >
             <div class="">
-                <div class="flex mt-5 flex w-full justify-between">
+                <div class="flex mt-2 flex w-full justify-between">
                     <div class="block relative">
                         <input placeholder="Pesquisar"
                             class="appearance-none rounded  block pl-2 pr-6 py-2 w-full bg-[#151618] text-sm placeholder-gray-400 text-white" />
@@ -15,36 +15,36 @@ const HistoryTable = () => {
                         </span>
                     </div>
                 </div>
-                <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 pt-3 overflow-x-auto">
                     <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
                         <table class="min-w-full leading-normal">
                             <thead>
                                 <tr>
                                     <th
-                                        class="px-5 font-bold py-3 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
                                         PARIDADE
                                     </th>
                                     <th
-                                        class="px-5 font-bold py-3 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
                                         ENTRADA
                                     </th>
                                     <th
-                                        class="px-5 font-bold py-3 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
                                         DATA
                                     </th>
                                     <th
-                                        class="px-5 font-bold py-3 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
                                         STATUS
                                     </th>
                                     <th
-                                        class="px-5 font-bold py-3 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
                                         LUCRO
                                     </th>
                                 </tr>
                             </thead>
                             <tbody className="text-white font-bold">
                                 <tr>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -58,15 +58,15 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$20,00</p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">
                                             Jan 21, 2020
                                         </p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#2FFE82] border border-[#2FFE82]">
                                             <span aria-hidden
@@ -79,12 +79,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618]  text-sm text-[#2FFE82]">
+                                    <td class="px-5 py-[6px] bg-[#151618]  text-sm text-[#2FFE82]">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -98,15 +98,15 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$50,00</p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">
                                             Jan 01, 2020
                                         </p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#2FFE82] border border-[#2FFE82]">
                                             <span aria-hidden
@@ -119,12 +119,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618]  text-sm text-[#2FFE82]">
+                                    <td class="px-5 py-[6px] bg-[#151618]  text-sm text-[#2FFE82]">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -138,15 +138,15 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$50,00</p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">
                                             Jan 10, 2020
                                         </p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#DB4831]">
                                             <span aria-hidden
@@ -159,12 +159,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-[#DB4831]  text[14px]m">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-[#DB4831]  text[14px]m">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -178,13 +178,13 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$20,00</p>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">Jan 18, 2020</p>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#DB4831]">
                                             <span aria-hidden
@@ -197,12 +197,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-[#DB4831]  text[14px]m">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-[#DB4831]  text[14px]m">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -216,15 +216,15 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$20,00</p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">
                                             Jan 21, 2020
                                         </p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#2FFE82] border border-[#2FFE82]">
                                             <span aria-hidden
@@ -237,12 +237,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618]  text-sm text-[#2FFE82]">
+                                    <td class="px-5 py-[6px] bg-[#151618]  text-sm text-[#2FFE82]">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -256,15 +256,15 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$50,00</p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">
                                             Jan 01, 2020
                                         </p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#2FFE82] border border-[#2FFE82]">
                                             <span aria-hidden
@@ -277,12 +277,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618]  text-sm text-[#2FFE82]">
+                                    <td class="px-5 py-[6px] bg-[#151618]  text-sm text-[#2FFE82]">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -296,15 +296,15 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$50,00</p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">
                                             Jan 10, 2020
                                         </p>
                                     </td>
-                                    <td class="px-5 py-2 border-b border-gray-200 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] border-b border-gray-200 bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#DB4831]">
                                             <span aria-hidden
@@ -317,12 +317,12 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-[#DB4831] text-[14px]">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-[#DB4831] text-[14px]">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 w-8 h-8">
                                                 <img class="w-full h-full rounded-full"
@@ -336,13 +336,13 @@ const HistoryTable = () => {
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">R$20,00</p>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <p class="whitespace-no-wrap">Jan 18, 2020</p>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-sm">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-sm">
                                         <span
                                             class="relative inline-block px-3 py-1 font-semibold text-[#DB4831]">
                                             <span aria-hidden
@@ -355,7 +355,7 @@ const HistoryTable = () => {
                                             </span>
                                         </span>
                                     </td>
-                                    <td class="px-5 py-2 bg-[#151618] text-[#DB4831] text-[14px]">
+                                    <td class="px-5 py-[6px] bg-[#151618] text-[#DB4831] text-[14px]">
                                         <span class="relative">+R$50,00</span>
                                     </td>
                                 </tr>
@@ -365,7 +365,7 @@ const HistoryTable = () => {
                             class="px-5 w-full justify-between items-center py-2 bg-[#151618] border-t flex gap-2">
                             <div class="flex gap-3 mt-2 xs:mt-0">
                                 <button
-                                    class=" bg-[#2E2F323D]   py-2 px-4 rounded">
+                                    class=" bg-[#2E2F323D]   py-2 px-4  mb-2 rounded">
                                     <div className="flex items-center gap-2">
                                         <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M6.5 1L1.5 6L6.5 11" stroke="#F6F7FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -376,7 +376,7 @@ const HistoryTable = () => {
                                     </div>
                                 </button>
                                 <button
-                                    class=" bg-[#2E2F323D]   py-2 px-4 rounded">
+                                    class=" bg-[#2E2F323D]   py-2 px-4 mb-2 rounded">
                                     <div className="flex items-center gap-2">
                                         <p className="text-white text-[13px]">Proximo</p>
                                         <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -37,7 +37,7 @@ const ConfigComponent = () => {
                 </div>
             </div>
 
-            <div className="w-full grid grid-cols-3 gap-1">
+            <div className="w-full grid grid-cols-3 gap-x-2 gap-1">
                 <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center   justify-between">
                         <div className="flex">
