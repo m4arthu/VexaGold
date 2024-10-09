@@ -40,8 +40,8 @@ const RendimentosChart = () => {
 
     return (
         <div className=" bg-[#151618] mt-4 mr-4 w-[60%] max-h-[385px]  rounded-[10px]">
-            <div className="flex mt-4  w-full justify-between p-4 py-3">
-                <h1 className="text-white font-bold ml-4">RENDIMENTOS</h1>
+            <div className="flex mb-4  w-full justify-between p-4 py-4">
+                <h1 className="text-white font-bold ml-7">RENDIMENTOS</h1>
                 <select class="appearance-none text-white font-bold  w-[160px] bg-[#1B985E] text-[14px] text-white  rounded-[10px] custom-select py-1 px-4">
                     <option>ULTIMOS 7 DIAS</option>
                 </select>
