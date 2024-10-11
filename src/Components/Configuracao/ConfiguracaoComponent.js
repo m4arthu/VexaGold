@@ -31,7 +31,7 @@ const ConfigComponent = () => {
                 <div className="flex">
                     <img src="./assets/images/icons/SettingsIcon.svg" />
                     <p className="text-[14px] text-white ml-3 font-bold">OPERAÇÃO AO VIVO</p>
-                    <div className="flex ml-8 w-[45px] justify-end w-[80px] rounded-[15px] bg-[#2FFE823D] ">
+                    <div className="flex ml-8 w-[45px] justify-end w-[40px] rounded-[15px] bg-[#2FFE823D] ">
                         <div className="w-[21px] cursor-pointer rounded-[100%] bg-[#2FFE82]"></div>
                     </div>
                 </div>

@@ -102,7 +102,7 @@ const HistoricOverview = () => {
         })
     }, []);
     return (
-        <div className="w-full px-5 grid grid-cols-3 gap-3">
+        <div className="w-full px-7 grid grid-cols-3 gap-3">
             <div className="w-full bg-[#151618] h-[110px] flex  rounded-[10px] p-3">
                 <div className='mr-3'>
                     <div className="flex items-center">
