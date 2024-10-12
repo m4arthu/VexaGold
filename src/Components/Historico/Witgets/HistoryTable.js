@@ -39,26 +39,26 @@ const HistoryTable = () => {
                 <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 pt-3 overflow-x-auto">
                     <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
                         <table class="min-w-full leading-normal">
-                            <thead >
+                            <thead>
                                 <tr>
-                                    <th
-                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                    <th style={{borderBottom:"1px solid #2FFE82"}}
+                                        class="px-5 font-bold py-4  bg-[#151618]   text-left text-xs text-white">
                                         PARIDADE
                                     </th>
-                                    <th
-                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                    <th style={{borderBottom:"1px solid #2FFE82"}}
+                                        class="px-5 font-bold py-4  bg-[#151618]   text-left text-xs text-white">
                                         ENTRADA
                                     </th>
-                                    <th
-                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                    <th style={{borderBottom:"1px solid #2FFE82"}}
+                                        class="px-5 font-bold py-4  bg-[#151618]   text-left text-xs text-white">
                                         DATA
                                     </th>
-                                    <th
-                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                    <th style={{borderBottom:"1px solid #2FFE82"}}
+                                        class="px-5 font-bold py-4  bg-[#151618]   text-left text-xs text-white">
                                         STATUS
                                     </th>
-                                    <th
-                                        class="px-5 font-bold py-4 border-b-2 border-[#2FFE82] border bg-[#151618]   text-left text-xs text-white">
+                                    <th style={{borderBottom:"1px solid #2FFE82"}}
+                                        class="px-5 font-bold py-4  bg-[#151618]   text-left text-xs text-white">
                                         LUCRO
                                     </th>
                                 </tr>
