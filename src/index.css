@@ -14,3 +14,9 @@
     filter: invert(60%) sepia(100%) saturate(405%) hue-rotate(60deg) brightness(140%) contrast(105%);
   }
  
+
+.selected-buttom{
+  background-color:  #2FFE823D;
+  border: 1px  solid #2FFE82;
+  border-radius: 10px;
+}

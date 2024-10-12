@@ -1,10 +1,12 @@
 import HeaderComponent from "../HeaderComponent"
+import CalendaryTable from "./Witget/CalendaryTable"
 
-const CalendarioComponent  = () => {
+const CalendarioComponent = () => {
     return (
-      <div className="w-full p-2">
-      <HeaderComponent title={'CALENDÁRIO'}/>
-</div>
+        <div className="w-full p-2">
+            <HeaderComponent title={'CALENDÁRIO'} />
+            <CalendaryTable />
+        </div>
     )
 }
 
