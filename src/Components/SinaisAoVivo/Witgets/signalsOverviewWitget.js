@@ -1,6 +1,6 @@
 const SignalsOverview = () => {
     return (
-        <div className="w-full grid grid-cols-3 gap-3">
+        <div className="w-full grid grid-cols-2 mt-2 md:grid-cols-3 gap-3">
             <div className="w-full bg-[#151618] rounded-[10px] p-3">
                 <div className="flex items-center">
                     <img src="./assets/images/icons/signalsIcon.svg"/>

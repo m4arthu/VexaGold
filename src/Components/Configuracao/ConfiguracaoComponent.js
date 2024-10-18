@@ -4,11 +4,11 @@ const ConfigComponent = () => {
     return (
         <div className="w-full p-2">
             <HeaderComponent title={'CONFIGURAÇOES'} />
-            <div className="w-full flex flex-col items-center p-4 rounded-[10px] bg-[#151618]">
+            <div className="w-full mt-2 md:mt-0 flex flex-col items-center p-4 rounded-[10px] bg-[#151618]">
                 <div className="w-full mt-2 flex justify-center">
                     <img src="./assets/images/icons/UserIcon.svg" />
                 </div>
-                <div className="flex w-full mt-3 mb-4 gap-2">
+                <div className="flex-col md:flex-row flex w-full mt-3 mb-4 gap-2">
                     <div className="w-full">
                         <label className="text-white font-bold text-[13px]">E-mail</label>
                         <input value={'meuEmai@example.com'} className="px-4 text-white bg-[#2E2F323D] w-full rounded-[10px] h-[35px]" type="email" />
@@ -23,11 +23,11 @@ const ConfigComponent = () => {
                     </div>
                 </div>
                 <div className="w-full">
-                    <button className="border text-[white] border-[#2FFE82] bg-[#1B985E] p-1 font-bold w-[250px] rounded-[8px]">Salvar</button>
+                    <button className="border text-[white] border-[#2FFE82] bg-[#1B985E] p-1 font-bold w-full md:w-[250px] rounded-[8px]">Salvar</button>
                 </div>
             </div>
 
-            <div className="mt-1 bg-[#151618] mt-2 mb-2 w-[300px] p-2 rounded-[10px]">
+            <div className="mt-1 bg-[#151618] mt-2 mb-2 w-full md:w-[300px] p-2 rounded-[10px]">
                 <div className="flex">
                     <img src="./assets/images/icons/SettingsIcon.svg" />
                     <p className="text-[14px] text-white ml-3 font-bold">OPERAÇÃO AO VIVO</p>
@@ -37,7 +37,7 @@ const ConfigComponent = () => {
                 </div>
             </div>
 
-            <div className="w-full grid grid-cols-3 gap-x-2 gap-1">
+            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-x-2 gap-1">
                 <div className="mt-1 bg-[#151618] w-full p-2 rounded-[10px]">
                     <div className="flex items-center   justify-between">
                         <div className="flex">

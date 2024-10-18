@@ -7,7 +7,7 @@ const SinaisAoVivoComponent = () => {
         <div className="w-full p-2">
             <HeaderComponent title={'SINAIS AO VIVO'} />
             <SignalsOverview/>
-            <div className="flex justify-end">
+            <div className="flex flex-col md:justify-end">
                 <SignalsWitget/>
             </div>
         </div>

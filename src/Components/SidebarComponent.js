@@ -48,18 +48,18 @@ const SidebarComponent = ({ isSidebarVisible, setSidebarVisible }) => {
           </div>
 
           <div className="flex justify-center w-full">
-            <img className="w-[90%] cursor-pointer mb-3" src="./assets/images/logo.svg" />
+            <img className="w-[80%] cursor-pointer mb-4" src="./assets/images/logo.svg" />
           </div>
-         <div className="px-5 flex flex-col gap-4">
+         <div className="px-10 flex flex-col gap-5">
          {routes.map((route, index) => (
             <div onClick={() => navigate(route.path)} key={index} className="flex h-ful  cursor-pointer">
               <img
-                width={30}
+                width={25}
                 className={`mr-1 ${location.pathname === route.path ? 'active-icon' : ''}`}
                 src={`/assets/images/icons/${route.icon}`}
               />
               <p
-                className={`ml-2 text-[18px] font-bold ${location.pathname === route.path ? 'text-[#2FFE82]' : ''}`}
+                className={`ml-2 text-[16px] font-bold ${location.pathname === route.path ? 'text-[#2FFE82]' : ''}`}
               >
                 {route.label}
               </p>

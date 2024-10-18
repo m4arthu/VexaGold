@@ -1,10 +1,10 @@
 const SignalsWitget = () => {
     return (
-        <div className="max-w-[20%]  w-full pl-3 pt-3">
+        <div className="w-full pl-3 pt-3">
             <h1 className="my-3 font-bold text-white">SINAIS ATUALIZADOS</h1>
             <div className="flex flex-col gap-4 max-h-[85%] min-h-[85%] overflow-y-auto">
 
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -27,7 +27,7 @@ const SignalsWitget = () => {
                     </div>
                 </div>
 
-                <div style={{ border: "1px solid #DB4831" }} className="flex  relative items-center py-4 pl-3  bg-[#DB48313D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #DB4831" }} className="flex  relative items-center py-4 pl-3  bg-[#DB48313D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -49,7 +49,7 @@ const SignalsWitget = () => {
                         <p className=" text-[11px] font-bold absolute bottom-1 right-2">M5</p>
                     </div>
                 </div>
-                <div style={{ border: "1px solid #DB4831" }} className="flex  relative items-center py-4 pl-3  bg-[#DB48313D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #DB4831" }} className="flex  relative items-center py-4 pl-3  bg-[#DB48313D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -71,7 +71,7 @@ const SignalsWitget = () => {
                         <p className=" text-[11px] font-bold absolute bottom-1 right-2">M5</p>
                     </div>
                 </div>
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -94,7 +94,7 @@ const SignalsWitget = () => {
                     </div>
                 </div>
 
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -116,7 +116,7 @@ const SignalsWitget = () => {
                         <p className=" text-[11px] font-bold absolute bottom-1 right-2">M5</p>
                     </div>
                 </div>
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -138,7 +138,7 @@ const SignalsWitget = () => {
                         <p className=" text-[11px] font-bold absolute bottom-1 right-2">M5</p>
                     </div>
                 </div>
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -160,7 +160,7 @@ const SignalsWitget = () => {
                         <p className=" text-[11px] font-bold absolute bottom-1 right-2">M5</p>
                     </div>
                 </div>
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
@@ -182,7 +182,7 @@ const SignalsWitget = () => {
                         <p className=" text-[11px] font-bold absolute bottom-1 right-2">M5</p>
                     </div>
                 </div>
-                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[47px]">
+                <div style={{ border: "1px solid #2FFE82" }} className="flex  relative items-center py-4 pl-3  bg-[#2FFE823D] w-full rounded-[10px] h-[60px] md:h-[47px]">
                     <div className=" w-[50%] text-white flex">
                         <img src="assets/images/icons/brlJpy.svg" />
                         <div className="ml-2">
