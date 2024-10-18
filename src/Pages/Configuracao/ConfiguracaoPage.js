@@ -3,7 +3,7 @@ import SidebarComponent from "../../Components/SidebarComponent"
 
 const ConfigPage = () => {
     return (
-        <div className="bg-black h-[100vh] flex py-4">
+        <div className="bg-black  flex py-4">
             <SidebarComponent/>
             <ConfigComponent/>
         </div>
