@@ -2,15 +2,15 @@ const CalendaryTable = () => {
     return (
         <div class="container mx-auto px-4 sm:px-8" >
             <div class=" mt-2">
-                <div className="flex w-full justify-between">
-                    <div className="text-white text-[14px] bg-[#151618] rounded-[15px]">
+                <div className="flex md:flex-row flex-col gap-2 md:gap-0  w-full justify-between">
+                    <div className="text-white flex text-[12px] md:text-[14px] bg-[#151618] rounded-[15px]">
                         <button className=" selected-buttom p-4 py-2">Hoje</button>
                         <button className="p-4 py-2">Amanhã</button>
                         <button className="p-4 py-2">Esta Semana</button>
                         <button className="p-4 py-2">Proxima Semana</button>
                        
                     </div>
-                    <div class="block relative">
+                    <div class="block  bg-[#151618] relative">
                         <input placeholder="Pesquisar"
                             class="appearance-none rounded-[15px]  block pl-4 pr-7 py-2 w-[300px] bg-[#151618] text-sm placeholder-gray-400 text-white" />
                         <span class="h-full absolute inset-y-0 right-2 flex items-center pl-2">
@@ -22,7 +22,7 @@ const CalendaryTable = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-full flex py-2 px-5  rounded-[15px] my-4 text-white justify-between bg-[#151618] rouded">
+                <div className="w-full flex md:flex-row flex-col gap-2 md:gap-0 py-2 px-5  rounded-[15px] my-4 text-white justify-between bg-[#151618] rouded">
                     <div className="flex gap-3">
                         <img src="./assets/images/oneStars.svg" />
                         <p>Volatividade Esperada Baixa</p>
