@@ -1,7 +1,21 @@
-const HeaderComponent = ({title}) => {
+import { useState } from "react"
+import SidebarComponent from "./SidebarComponent"
+
+const HeaderComponent = ({ title }) => {
+    const [isSidebarVisible,setSidebarVisible] = useState(false)
     return (
+        <>
         <header className="w-full mb-2 flex justify-between">
-            <h1 className="text-white font-bold">{title}</h1>
+            <h1 className="hidden md:block text-white font-bold">{title}</h1>
+            <div className="text-white gap-2 flex md:hidden">
+                <img src="./assets/images/icons/mobileSidebarIcon.svg" />
+                <svg onClick={()=>{setSidebarVisible(!isSidebarVisible)}} width="14" height="41" viewBox="0 0 14 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 15.5H7H13" stroke="#F6F7FA" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M1 20.5H5H9" stroke="#F6F7FA" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M1 25.5H6H11" stroke="#F6F7FA" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+
+            </div>
             <div className="flex gap-4 items-center">
                 <img className="cursor-pointer" src="./assets/images/swichdark.svg" />
                 <svg className="cursor-pointer" width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,6 +26,9 @@ const HeaderComponent = ({title}) => {
                 </svg>
             </div>
         </header>
+
+        {isSidebarVisible && <SidebarComponent setSidebarVisible={setSidebarVisible} isSidebarVisible={isSidebarVisible} />}
+        </>
     )
 }
 
