@@ -10,7 +10,6 @@ const RendimentosChart = () => {
                 chart: {
                     id: "basic-bar",
                     type: "line",
-                    width: "100%",
                     sparkline: {
                         enabled: true
                     },
@@ -39,7 +38,7 @@ const RendimentosChart = () => {
     }, []);
 
     return (
-        <div className=" bg-[#151618] mt-4 mr-4 w-[60%] max-h-[385px]  rounded-[10px]">
+        <div className=" bg-[#151618] mt-4 mr-4 w-full md:w-[60%]  max-h-[385px]  rounded-[10px]">
             <div className="flex mb-4  w-full justify-between p-4 py-4">
                 <h1 className="text-white font-bold ml-7">RENDIMENTOS</h1>
                 <select class="appearance-none text-white font-bold  w-[160px] bg-[#1B985E] text-[14px] text-white  rounded-[10px] custom-select py-1 px-4">
@@ -65,7 +64,7 @@ const RendimentosChart = () => {
                                 options={data.options}
                                 series={data.series}
                                 type="area"
-                                height={150}
+                                height={'40%'}
                             />
                         )}
                     </div>

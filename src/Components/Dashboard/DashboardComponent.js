@@ -9,11 +9,11 @@ const DashboardComponent = () => {
     return (
         <div className="ml-2 w-full pr-5 pl-2">
            <HeaderComponent title={'DASHBOARD'}/>
-            <div className="w-full justify-between flex">
+            <div className="w-full justify-between md:flex">
                 <LastOperationWitget />
                 <WalletDetailsWitget />
             </div>
-            <div className="w-full justify-between flex">
+            <div className="w-full justify-between md:flex">
                 <RendimentosChart/>
                 <AcertosWitget/>
                 <Top5ParidadesWitget/>

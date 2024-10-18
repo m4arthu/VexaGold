@@ -13,7 +13,7 @@ const SidebarComponent = () => {
   ];
 
   return (
-    <aside className="relative bg-[#151618] w-[227px] h-[95vh] mt-2 rounded-[12px] py-4 pl-4 ml-4 flex flex-col gap-3 text-white">
+    <aside className="relative bg-[#151618] hidden md:flex w-[227px] h-[95vh] mt-2 rounded-[12px] py-4 pl-4 ml-4 flex flex-col gap-3 text-white">
       <div className="flex w-full">
         <img className="w-[80%] cursor-pointer mb-3" src="./assets/images/logo.svg" />
         <img className="cursor-pointer ml-2" src="./assets/images/icons/sideBarBars.svg" />

@@ -32,7 +32,7 @@ const AcertosWitget = () => {
     }, []);
 
     return (
-        <div className="flex bg-[#151618] rounded-[10px] p-2 mt-4 mr-4   flex-col text-white ">
+        <div className="flex bg-[#151618] rounded-[10px] p-2 mt-6 md:mt-4 mr-4   flex-col text-white ">
 
             <div className="justify-start">
                     <h1 className="font-bold mt-2 ml-2">MÉDIA DE ACERTOS</h1>

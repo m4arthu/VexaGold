@@ -3,7 +3,7 @@ const Top5ParidadesWitget = () => {
 
 
     return (
-        <div className="flex bg-[#151618] rounded-[10px] px-4 py-2 mt-4 mr-4  w-[35%] flex-col text-white ">
+        <div className="flex bg-[#151618] rounded-[10px] px-4 py-2 mt-4 mr-4  w-full md:w-[35%] flex-col text-white ">
             <h1 className="font-bold mt-2 mb-4">TOP 5 PARIDADES</h1>
 
             <div className="w-full flex flex-col gap-4">
