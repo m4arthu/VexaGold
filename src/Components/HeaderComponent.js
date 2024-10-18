@@ -26,6 +26,7 @@ const HeaderComponent = ({ title }) => {
                 </svg>
             </div>
         </header>
+        <h1 className="block md:hidden text-white font-bold">{title}</h1>
 
         {isSidebarVisible && <SidebarComponent setSidebarVisible={setSidebarVisible} isSidebarVisible={isSidebarVisible} />}
         </>
