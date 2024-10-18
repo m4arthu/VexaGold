@@ -1,8 +1,8 @@
 const CalendaryTable = () => {
     return (
         <div class="container mx-auto px-4 sm:px-8" >
-            <div class=" mt-2">
-                <div className="flex md:flex-row flex-col gap-2 md:gap-0  w-full justify-between">
+            <div class="mt-4 md:mt-2">
+                <div className="flex md:flex-row flex-col-reverse  gap-2 md:gap-0  w-full justify-between">
                     <div className="text-white flex text-[12px] md:text-[14px] bg-[#151618] rounded-[15px]">
                         <button className=" selected-buttom p-4 py-2">Hoje</button>
                         <button className="p-4 py-2">Amanhã</button>
