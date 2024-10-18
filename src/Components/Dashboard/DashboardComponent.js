@@ -7,7 +7,7 @@ import WalletDetailsWitget from "./Witgets/WalletDetailsWitget"
 
 const DashboardComponent = () => {
     return (
-        <div className="ml-2 w-full pr-5 pl-2">
+        <div className="md:ml-2 w-full px-3">
            <HeaderComponent title={'DASHBOARD'}/>
             <div className="w-full justify-between md:flex">
                 <LastOperationWitget />

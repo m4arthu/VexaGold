@@ -39,14 +39,14 @@ const RendimentosChart = () => {
 
     return (
         <div className=" bg-[#151618] mt-4 mr-4 w-full md:w-[60%]  max-h-[385px]  rounded-[10px]">
-            <div className="flex mb-4  w-full justify-between p-4 py-4">
-                <h1 className="text-white font-bold ml-7">RENDIMENTOS</h1>
+            <div className="flex md:mb-4  w-full justify-between p-4 py-4">
+                <h1 className="text-white font-bold md:ml-7">RENDIMENTOS</h1>
                 <select class="appearance-none text-white font-bold  w-[160px] bg-[#1B985E] text-[14px] text-white  rounded-[10px] custom-select py-1 px-4">
                     <option>ULTIMOS 7 DIAS</option>
                 </select>
             </div>
             <div className=" w-full h-[85%] flex  p-4 pt-0 mt-2 items-end">
-                <div className="text-white flex flex-col mr-3 mb-10">
+                <div className="text-white text-[14px] flex flex-col mr-3 mb-10">
                     {
                         [
                             30, 40, 45, 50, 49, 60, 70, 91,
@@ -58,7 +58,7 @@ const RendimentosChart = () => {
                 </div>
 
                 <div className="w-full">
-                    <div className="w-full ml-3">
+                    <div className="w-[95%] md:w-full ml-3">
                         {data.options && (
                             <Chart
                                 options={data.options}
@@ -68,8 +68,8 @@ const RendimentosChart = () => {
                             />
                         )}
                     </div>
-                    <div className="text-white mb-4 flex gap-6">
-                        <p>1991</p> <p>1992</p> <p>1993</p> <p>1994</p> <p>1995</p> <p>1996</p> <p>1997</p> <p>1998</p> <p>1999</p>
+                    <div className="text-white text-[14px] mb-4 flex gap-1 md:gap-6">
+                    <p>07/09</p><p>07/09</p><p>07/09</p><p>07/09</p><p>07/09</p> <p>07/09</p><p>07/09</p> 
                     </div>
                 </div>
             </div>

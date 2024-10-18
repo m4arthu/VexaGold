@@ -1,6 +1,6 @@
 const WalletDetailsWitget = () => {
     return (
-        <div className="md:w-[57%] mr-3">
+        <div className="md:w-[57%] mt-3 md:mt-0 md:mr-3">
             <div className="relative  flex justify-center items-center w-full rounded-[5px] h-[40px] bg-[#151618]">
                 <div className="flex items-center">
                     <h1 className="text-white text-[15px] font-bold">CARTEIRA DE TREINAMENTO</h1>

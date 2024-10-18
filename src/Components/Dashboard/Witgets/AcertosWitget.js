@@ -32,12 +32,12 @@ const AcertosWitget = () => {
     }, []);
 
     return (
-        <div className="flex bg-[#151618] rounded-[10px] p-2 mt-6 md:mt-4 mr-4   flex-col text-white ">
+        <div className="flex bg-[#151618] rounded-[10px] p-2 mt-3 md:mt-6 md:mt-4 md:mr-4   flex-col text-white ">
 
             <div className="justify-start">
                     <h1 className="font-bold mt-2 ml-2">MÉDIA DE ACERTOS</h1>
             </div>
-            <div className="w-full relative ml-3 flex h-full items-center justify-center">
+            <div className="w-full relative md:ml-3 flex h-full items-center justify-center">
                 {data.options && (
                     <Chart
                         options={data.options}
